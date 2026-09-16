@@ -146,7 +146,7 @@ function ProfilePanel() {
   const registry = useDirtyRegistry();
 
   const form = useDirtyForm({
-    storageKey: "veritasor_settings_profile_draft",
+    storageKey: "truelayerx_settings_profile_draft",
     initialValues: {
       displayName: "Joel Agboola",
       email: "joel@example.com",
@@ -428,7 +428,7 @@ function NotificationsPanel() {
   };
 
   const form = useDirtyForm({
-    storageKey: "veritasor_settings_notifications_draft",
+    storageKey: "truelayerx_settings_notifications_draft",
     initialValues: initialNotifs,
     autoSave: true,
     autoSaveIntervalMs: 2500,
@@ -2576,7 +2576,7 @@ function SecurityPanel() {
   const [sessions, setSessions] = useState(MOCK_SESSIONS);
 
   const pwForm = useDirtyForm({
-    storageKey: "veritasor_settings_security_draft",
+    storageKey: "truelayerx_settings_security_draft",
     initialValues: {
       currentPassword: "",
       newPassword: "",
@@ -2866,7 +2866,7 @@ function TokensPanel() {
     <div>
       <h2>Design tokens</h2>
       <p style={{ color: "var(--muted)" }}>
-        Review theme changes, then export a snapshot of Veritasor design tokens as CSS custom properties.
+        Review theme changes, then export a snapshot of TrueLayerX design tokens as CSS custom properties.
       </p>
       <div style={{ marginTop: "1.5rem", maxWidth: 1100, display: "grid", gap: "1.5rem" }}>
         <TokensDiffViewer />
@@ -4715,12 +4715,12 @@ function InviteMemberModal({ onClose, onInvite }: InviteMemberModalProps) {
                   <span style={{ color: "var(--muted)" }}>{previewRecipient}</span>
                 </p>
                 <p style={{ margin: "0 0 0.35rem" }}>
-                  <strong>Subject:</strong> You've been invited to join the Veritasor workspace
+                  <strong>Subject:</strong> You've been invited to join the TrueLayerX workspace
                 </p>
                 <hr style={{ border: "none", borderTop: "1px solid var(--border)", margin: "0.6rem 0" }} />
                 <p style={{ margin: "0 0 0.5rem" }}>Hi there,</p>
                 <p style={{ margin: "0 0 0.5rem" }}>
-                  You've been invited to join the Veritasor workspace as a{" "}
+                  You've been invited to join the TrueLayerX workspace as a{" "}
                   <strong>{selectedRoleMeta.label}</strong>.{" "}
                   {selectedRoleMeta.description}
                 </p>

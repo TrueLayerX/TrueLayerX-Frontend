@@ -1,4 +1,4 @@
-# Accessibility Checklist — Veritasor Frontend
+# Accessibility Checklist — TrueLayerX Frontend
 
 **Framework:** React 18 + React Router 6 + Vite + TypeScript (vanilla CSS, no component library)
 **Standard:** WCAG 2.1 AA
@@ -71,7 +71,7 @@ export default [
   This pattern keeps the ring consistent across buttons, links, and custom interactive elements.
 
 - [x] **Navigation links — `src/components/Layout.tsx`**
-  Verify that both `<Link to="/">` (Veritasor logo) and the two nav `<Link>` elements
+  Verify that both `<Link to="/">` (TrueLayerX logo) and the two nav `<Link>` elements
   show the accent-color ring when tabbed to. Do not suppress `outline` via inline styles.
 
 - [ ] **Skip-to-content link — `src/components/Layout.tsx` + `src/index.css`**
@@ -277,7 +277,7 @@ Reviewer test sequence for **every PR** that adds or changes interactive element
   Each page must update `document.title` so screen reader users know which page loaded.
   Use React Router `useEffect` or a `<title>` management library:
   ```tsx
-  useEffect(() => { document.title = 'Dashboard — Veritasor' }, [])
+  useEffect(() => { document.title = 'Dashboard — TrueLayerX' }, [])
   ```
 
 - [ ] **Buttons** *(when added)*

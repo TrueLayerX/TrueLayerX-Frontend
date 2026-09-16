@@ -37,7 +37,7 @@ browser renders the same DOM through the print stylesheet.
 ```
 ┌────────────────────────────────────────────────────────────────┐  ← @page margin
 │ ┌────────────────────────────────────────────────────────────┐ │
-│ │ [V·] VERITASOR           Revenue Attestation   Document ID │ │  ← certificate-header (double rule below)
+│ │ [T·] TRUELAYERX           Revenue Attestation   Document ID │ │  ← certificate-header (double rule below)
 │ │     PROTOCOL             Protocol              att-001     │ │
 │ ├════════════════════════════════════════════════════════════┤ │
 │ │                                                            │ │
@@ -64,7 +64,7 @@ browser renders the same DOM through the print stylesheet.
 │ ├════════════════════════════════════════════════════════════┤ │
 │ │ Signed on behalf of the issuing authority:                │ │  ← certificate-footer
 │ │                                Printed May 28, 2026, …    │ │
-│ │     Veritasor Protocol                veritasor.app/      │ │
+│ │     TrueLayerX Protocol                truelayerx.app/      │ │
 │ │     Issuing Authority                  attestations/att-001│ │
 │ │                                                            │ │
 │ │  Authenticated against Stellar transaction hash a1b2c3d…  │ │  ← certificate-authenticity
@@ -316,9 +316,9 @@ printed original.
 
 ```
         ┌───────────────────────┐
-       ╱   VERITASOR PROTOCOL   ╲
+       ╱   TRUELAYERX PROTOCOL   ╲
       │      ╭─────────╮         │
-      │     │     V     │         │
+      │     │     T     │         │
       │     │  ✓ / ◷ / ✕ │         │
       │      ╰─────────╯         │
        ╲   ATTESTED ON-CHAIN     ╱

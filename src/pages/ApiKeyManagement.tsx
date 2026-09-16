@@ -102,7 +102,7 @@ export const ApiKeyManagement: React.FC = () => {
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">API Key Management</h1>
           <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
-            Authenticate external software components with the Veritasor attestation pipeline.
+            Authenticate external software components with the TrueLayerX attestation pipeline.
           </p>
         </div>
         <button

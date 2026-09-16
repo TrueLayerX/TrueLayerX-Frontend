@@ -1,6 +1,6 @@
 # Design Tokens — CSS Export
 
-Designers and developers can export a snapshot of Veritasor design tokens as a CSS
+Designers and developers can export a snapshot of TrueLayerX design tokens as a CSS
 custom-properties file, ready to paste into `src/index.css` or share with other teams.
 
 ## Component
@@ -37,7 +37,7 @@ Every exported file includes a comment header:
 
 ```css
 /*
- * Veritasor Design Tokens — CSS Custom Properties
+ * TrueLayerX Design Tokens — CSS Custom Properties
  * Version: 0.1.0
  * Exported: 2026-07-28T...
  * Scope: :root (default dark)
@@ -77,7 +77,7 @@ The component mounts inside **Settings → Tokens** by default.
 - **Live announcements** — a `role="status" aria-live="polite"` region announces
   copy and download actions (WCAG 4.1.3 Status Messages).
 - **Preview textarea** is `readonly` but keyboard-focusable and selectable.
-- **Contrast** — all text uses established Veritasor color tokens (`--text`,
+- **Contrast** — all text uses established TrueLayerX color tokens (`--text`,
   `--muted`, `--accent`) which meet WCAG AA in both light and dark palettes.
 
 ## Responsive

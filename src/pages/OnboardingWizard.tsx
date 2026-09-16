@@ -206,7 +206,7 @@ export default function OnboardingWizard() {
 
         {/* Top bar */}
         <div className="ob-topbar">
-          <Link to="/" className="ob-brand">Veritasor</Link>
+          <Link to="/" className="ob-brand">TrueLayerX</Link>
           {savedAt && (
             <span className="ob-draft-badge" aria-live="polite">
               <span className="ob-draft-dot" aria-hidden="true" />

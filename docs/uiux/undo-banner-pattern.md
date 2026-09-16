@@ -35,7 +35,7 @@ The Undo/Redo Banner pattern is designed as a non-intrusive, transient notificat
 
 ## 3. System-Wide List of Undoable Actions
 
-The following list identifies candidate actions throughout Veritasor that must trigger this undoable banner:
+The following list identifies candidate actions throughout TrueLayerX that must trigger this undoable banner:
 
 1. **Disconnecting Revenue Integrations** (Implemented): Disconnecting active sources (Stripe, Shopify, QuickBooks).
 2. **Archiving Attestation Proofs**: Hiding or removing historically attested files from the public ledger grid.

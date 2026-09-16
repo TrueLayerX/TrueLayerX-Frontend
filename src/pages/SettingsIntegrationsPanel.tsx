@@ -43,7 +43,7 @@ export default function SettingsIntegrationsPanel() {
     <div>
       <h2>Integrations</h2>
       <p style={{ color: 'var(--muted)', marginBottom: '1rem' }}>
-        Connect third-party services to extend Veritasor's capabilities.
+        Connect third-party services to extend TrueLayerX's capabilities.
       </p>
 
       {/* Summary */}

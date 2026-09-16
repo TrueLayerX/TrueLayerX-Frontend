@@ -8,7 +8,7 @@ The density preference (Comfortable / Compact) should persist per user across se
 
 - **Hook:** `src/hooks/useDensityMode.ts`
 - **Component:** `src/components/DensityToggle.tsx`
-- **Storage:** `localStorage` keyed by `veritasor_density_{workspace}`
+- **Storage:** `localStorage` keyed by `truelayerx_density_{workspace}`
 - **Settings panel:** `Appearance` tab in `src/pages/Settings.tsx`
 
 ## Proposed API Endpoint

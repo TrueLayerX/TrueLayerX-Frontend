@@ -271,7 +271,7 @@ function NewPasswordState({ token }: { token: string | null }) {
     <AuthShell
       eyebrow="Recovery"
       title="Set new password"
-      description="Choose a strong password for your Veritasor workspace. It must be at least 8 characters."
+      description="Choose a strong password for your TrueLayerX workspace. It must be at least 8 characters."
       footerPrompt="Remembered your credentials?"
       footerLinkLabel="Return to sign in"
       footerLinkHref="/login"
@@ -463,7 +463,7 @@ function RequestedState({
 
   const handleOpenSpamFolder = () => {
     addToast(
-      'Tip: search your inbox for "Veritasor" across All mail and Spam.',
+      'Tip: search your inbox for "TrueLayerX" across All mail and Spam.',
       "info",
     );
   };
@@ -531,7 +531,7 @@ function RequestedState({
         <span aria-hidden="true" className="auth-message-icon">
           ✓
         </span>
-        If <strong>{email}</strong> is registered with a Veritasor workspace,
+        If <strong>{email}</strong> is registered with a TrueLayerX workspace,
         you will receive an email shortly at <strong>{sentAtFormatted}</strong>.
         Follow the link in that message to set a new password.
       </div>
@@ -560,11 +560,11 @@ function RequestedState({
           {[
             {
               t: "Check your Spam or Junk folder",
-              d: 'Automated messages can be filtered by your email provider. Search All mail for "Veritasor".',
+              d: 'Automated messages can be filtered by your email provider. Search All mail for "TrueLayerX".',
               action: handleOpenSpamFolder,
             },
             {
-              t: "Add no-reply@veritasor.com to your contacts",
+              t: "Add no-reply@truelayerx.com to your contacts",
               d: "This will prevent future sign-in and recovery emails from being filtered.",
               action: null,
             },
@@ -796,7 +796,7 @@ function RequestLinkState({
             id="recovery-email"
             className="auth-input"
             type="email"
-            placeholder="security@veritasor.com"
+            placeholder="security@truelayerx.com"
             autoComplete="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}

@@ -1,6 +1,6 @@
 # Summary
 
-Implements a shared visual system for Veritasor authentication screens and applies it across login, signup, and forgot-password routes.
+Implements a shared visual system for TrueLayerX authentication screens and applies it across login, signup, and forgot-password routes.
 
 ## What Changed
 

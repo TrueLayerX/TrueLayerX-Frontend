@@ -24,7 +24,7 @@ The shell provides these once per page — pages must not duplicate them:
 <div>                                                  app shell (flex container)
   <a class="skip-link" href="#main-content">…</a>      ← first focusable element
   <aside>                                              sidebar
-    <a>Veritasor</a>                                   brand / home
+    <a>TrueLayerX</a>                                   brand / home
     <nav aria-label="Primary"> … </nav>                ← navigation landmark
   </aside>
   <main id="main-content" tabindex="-1"                ← main landmark / skip target

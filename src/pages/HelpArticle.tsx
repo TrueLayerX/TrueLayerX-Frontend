@@ -5,13 +5,13 @@ export default function HelpArticle() {
     <main id="main-content" tabIndex={-1} className="help-article-page">
       <article className="help-article">
         <header className="help-article-header">
-          <h1>Getting Started with Veritasor</h1>
+          <h1>Getting Started with TrueLayerX</h1>
           <p className="help-article-meta">Last updated: July 2026</p>
         </header>
 
         <div className="help-article-body">
           <p>
-            Welcome to Veritasor. This guide covers the basics of setting up your
+            Welcome to TrueLayerX. This guide covers the basics of setting up your
             workspace and creating your first attestation.
           </p>
           <h2>1. Create a workspace</h2>

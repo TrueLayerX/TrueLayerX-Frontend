@@ -1,6 +1,6 @@
 # Accessible Toast & Notification Design System
 
-This document outlines the UX/UI specifications, accessibility implementation, and responsive behaviors for the transient feedback system (toasts) in Veritasor.
+This document outlines the UX/UI specifications, accessibility implementation, and responsive behaviors for the transient feedback system (toasts) in TrueLayerX.
 
 ## 1. Visual & Interaction Design
 

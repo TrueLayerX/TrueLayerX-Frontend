@@ -86,13 +86,13 @@ export function tokensToCss(blocks: TokenBlock[], variant: ThemeVariant): string
   const lines: string[] = []
 
   lines.push('/*')
-  lines.push(' * Veritasor Design Tokens — CSS Custom Properties')
+  lines.push(' * TrueLayerX Design Tokens — CSS Custom Properties')
   lines.push(` * Version: ${VERSION}`)
   lines.push(` * Exported: ${new Date().toISOString()}`)
   lines.push(` * Scope: ${getVariantLabel(variant)}`)
   lines.push(' *')
   lines.push(' * Paste this block into src/index.css or share with other teams.')
-  lines.push(' * All tokens use the existing Veritasor design-token naming convention.')
+  lines.push(' * All tokens use the existing TrueLayerX design-token naming convention.')
   lines.push(' */')
   lines.push('')
 

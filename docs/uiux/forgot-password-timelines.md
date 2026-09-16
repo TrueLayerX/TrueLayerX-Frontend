@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines UX guidelines for the forgot password recovery flow in the Veritasor Frontend, focusing on email delay expectations, resend limits, and support paths. Critically, all interactions must avoid revealing account existence to prevent enumeration attacks, maintaining security in the trust-heavy attestation domain.
+This document outlines UX guidelines for the forgot password recovery flow in the TrueLayerX Frontend, focusing on email delay expectations, resend limits, and support paths. Critically, all interactions must avoid revealing account existence to prevent enumeration attacks, maintaining security in the trust-heavy attestation domain.
 
 The design prioritizes user anxiety reduction, accessibility (WCAG 2.2 AA), and clear communication of timelines without compromising trust.
 

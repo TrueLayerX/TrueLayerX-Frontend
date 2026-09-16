@@ -1,13 +1,13 @@
-# UI/UX Design & Research: Veritasor Compliance & Non-Advice Copy
+# UI/UX Design & Research: TrueLayerX Compliance & Non-Advice Copy
 
 ## Scope
-This document outlines the UX research, content guidelines, success metrics, and accessibility baselines for revenue and bond-adjacent user interfaces within the Veritasor product experience. The core objective is to present financial data (revenue signals, integrations, bonds) in a highly trusted manner while strictly **avoiding regulated financial advice phrasing**.
+This document outlines the UX research, content guidelines, success metrics, and accessibility baselines for revenue and bond-adjacent user interfaces within the TrueLayerX product experience. The core objective is to present financial data (revenue signals, integrations, bonds) in a highly trusted manner while strictly **avoiding regulated financial advice phrasing**.
 
 ---
 
 ## 1. Content Guidelines: Avoiding Financial Advice
 
-In Veritasor’s trust-heavy domain, language must be precise, objective, and factual. Content should strictly describe what the platform does or what the data indicates, without telling the user what they *should* do with their capital.
+In TrueLayerX’s trust-heavy domain, language must be precise, objective, and factual. Content should strictly describe what the platform does or what the data indicates, without telling the user what they *should* do with their capital.
 
 ### Do's and Don'ts
 | **Do (Factual / Informational)** | **Don't (Advice / Directive)** |
@@ -30,7 +30,7 @@ In Veritasor’s trust-heavy domain, language must be precise, objective, and fa
 ## 2. Research & Validation Findings
 
 ### Jurisdictional Nuance
-Veritasor serves a multi-jurisdictional audience. General rules:
+TrueLayerX serves a multi-jurisdictional audience. General rules:
 1.  **US/SEC vs. UK/FCA vs. EU/ESMA:** Each jurisdiction has varying definitions of what constitutes "solicitation" or "financial advice." 
 2.  **Mitigation Strategy:** Default to the most restrictive interpretation globally. Keep all platform copy strictly informational. Eliminate all forward-looking financial guarantees.
 
@@ -48,7 +48,7 @@ To ensure the UX effectively manages user expectations and minimizes friction wh
 *   **Task Completion Rate:** > 90% for core flows (e.g., connecting a revenue integration, viewing a bond attestation), ensuring the neutral tone does not confuse users about the required system actions.
 *   **Time-on-Task:** Ensure the time spent is within expected bounds. Unusual delays on disclaimer screens may indicate cognitive overload or poor readability.
 *   **Error Recovery Rate:** > 95% recovery from edge states (e.g., permission denied on integrations), ensuring clear pathways forward without defaulting to advisory language.
-*   **Comprehension (Qualitative):** Measured via periodic usability testing or unmoderated feedback to ensure users understand Veritasor is a platform, not an advisor.
+*   **Comprehension (Qualitative):** Measured via periodic usability testing or unmoderated feedback to ensure users understand TrueLayerX is a platform, not an advisor.
 
 ---
 

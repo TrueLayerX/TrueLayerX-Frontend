@@ -1,4 +1,4 @@
-# Veritasor Dashboard Motion and Reduced Motion Policy
+# TrueLayerX Dashboard Motion and Reduced Motion Policy
 
 ## Document Metadata
 
@@ -22,7 +22,7 @@ This document is intentionally implementation-agnostic and should guide future e
 
 ## Product and Domain Principles
 
-Veritasor serves trust-heavy workflows. Motion should reinforce clarity, not novelty.
+TrueLayerX serves trust-heavy workflows. Motion should reinforce clarity, not novelty.
 
 - High signal, low drama: avoid decorative motion that can be interpreted as manipulation of financial, compliance, or attestation data
 - Orientation before animation: use motion to preserve context during view changes and hierarchy shifts

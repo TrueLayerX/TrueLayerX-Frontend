@@ -19,7 +19,7 @@ export default function Footer() {
         justifyContent: 'space-between',
       }}
     >
-      <span>© {new Date().getFullYear()} Veritasor</span>
+      <span>© {new Date().getFullYear()} TrueLayerX</span>
 
       <nav aria-label="Footer">
         <button

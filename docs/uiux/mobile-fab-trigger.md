@@ -324,7 +324,7 @@ npm run test:accessibility
 - Focus indicators visible and sufficient
 
 **Manual review:**
-- Open Veritasor on mobile device
+- Open TrueLayerX on mobile device
 - Activate screen reader (VoiceOver on iOS, TalkBack on Android)
 - Navigate using gesture and keyboard
 - Verify button is discovered and actionable
@@ -443,6 +443,6 @@ export default function Attestations() {
 ---
 
 **Prepared by:** Kiro AI Assistant  
-**For:** Veritasor Frontend Team  
-**Repository:** veritasor-frontend  
+**For:** TrueLayerX Frontend Team  
+**Repository:** truelayerx-frontend  
 **Issue Reference:** #312

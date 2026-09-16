@@ -5,7 +5,7 @@ import WebhookPayloadViewer, { SAMPLE_WEBHOOK_EVENTS } from '../components/webho
 
 describe('JsonTreeViewer & JsonTreeNode', () => {
   const sampleData = {
-    name: 'Veritasor',
+    name: 'TrueLayerX',
     count: 42,
     active: true,
     details: null,
@@ -23,7 +23,7 @@ describe('JsonTreeViewer & JsonTreeNode', () => {
   it('renders primitive values and keys correctly', () => {
     render(<JsonTreeViewer data={sampleData} />)
     expect(screen.getByText(/"name":/i)).toBeInTheDocument()
-    expect(screen.getByText(/"Veritasor"/i)).toBeInTheDocument()
+    expect(screen.getByText(/"TrueLayerX"/i)).toBeInTheDocument()
     expect(screen.getByText(/42/i)).toBeInTheDocument()
     expect(screen.getByText(/true/i)).toBeInTheDocument()
     expect(screen.getByText(/null/i)).toBeInTheDocument()

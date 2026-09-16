@@ -248,7 +248,7 @@ export default function MotionDemo() {
         </h1>
         <p style={{ margin: 0, color: 'var(--muted)', lineHeight: 1.65, maxWidth: '64ch' }}>
           A constrained set of easing curves and duration values for consistent, accessible animation
-          across the Veritasor dashboard. All tokens are defined as CSS custom properties in{' '}
+          across the TrueLayerX dashboard. All tokens are defined as CSS custom properties in{' '}
           <code style={{ fontFamily: '"SF Mono","Fira Code",monospace', fontSize: '0.82rem' }}>
             src/index.css
           </code>{' '}

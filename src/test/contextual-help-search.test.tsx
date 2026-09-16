@@ -72,7 +72,7 @@ describe('ContextualHelpSearch', () => {
 
     it('renders article titles in results', () => {
       renderHelpSearch()
-      expect(screen.getByText('Getting Started with Veritasor')).toBeInTheDocument()
+      expect(screen.getByText('Getting Started with TrueLayerX')).toBeInTheDocument()
       expect(screen.getByText('Connecting Revenue Sources')).toBeInTheDocument()
     })
 
@@ -95,7 +95,7 @@ describe('ContextualHelpSearch', () => {
         expect(screen.queryByText('All help articles')).not.toBeInTheDocument()
       })
       expect(screen.getByText('Understanding Billing & Plans')).toBeInTheDocument()
-      expect(screen.queryByText('Getting Started with Veritasor')).not.toBeInTheDocument()
+      expect(screen.queryByText('Getting Started with TrueLayerX')).not.toBeInTheDocument()
     })
 
     it('filters articles by keyword', async () => {
@@ -159,10 +159,10 @@ describe('ContextualHelpSearch', () => {
   describe('recent searches', () => {
     it('persists selected articles to localStorage', () => {
       renderHelpSearch()
-      const article = screen.getByText('Getting Started with Veritasor')
+      const article = screen.getByText('Getting Started with TrueLayerX')
       fireEvent.click(article)
 
-      const stored = JSON.parse(localStorage.getItem('veritasor-recent-help-searches')!)
+      const stored = JSON.parse(localStorage.getItem('truelayerx-recent-help-searches')!)
       expect(stored).toContain('getting-started')
     })
 
@@ -182,7 +182,7 @@ describe('ContextualHelpSearch', () => {
     it('limits recent searches to 5', () => {
       // Store 6 recent searches
       const ids = HELP_ARTICLES.slice(0, 6).map((a) => a.id)
-      localStorage.setItem('veritasor-recent-help-searches', JSON.stringify(ids))
+      localStorage.setItem('truelayerx-recent-help-searches', JSON.stringify(ids))
 
       renderHelpSearch()
       // Only 5 should be shown in recent section
@@ -195,14 +195,14 @@ describe('ContextualHelpSearch', () => {
 
     it('moves clicked article to front of recents', () => {
       localStorage.setItem(
-        'veritasor-recent-help-searches',
+        'truelayerx-recent-help-searches',
         JSON.stringify(['api-keys', 'getting-started']),
       )
 
       renderHelpSearch()
-      fireEvent.click(screen.getByText('Getting Started with Veritasor'))
+      fireEvent.click(screen.getByText('Getting Started with TrueLayerX'))
 
-      const stored = JSON.parse(localStorage.getItem('veritasor-recent-help-searches')!)
+      const stored = JSON.parse(localStorage.getItem('truelayerx-recent-help-searches')!)
       expect(stored[0]).toBe('getting-started')
       expect(stored).toHaveLength(2)
     })

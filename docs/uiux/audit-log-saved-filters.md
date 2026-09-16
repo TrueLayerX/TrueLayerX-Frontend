@@ -67,7 +67,7 @@ Validation rules:
 Saved filters are stored in `localStorage` under
 
 ```
-veritasor.savedAuditFilters.<workspaceId>
+truelayerx.savedAuditFilters.<workspaceId>
 ```
 
 where `<workspaceId>` is sanitised to `[a-zA-Z0-9_-]` to guarantee

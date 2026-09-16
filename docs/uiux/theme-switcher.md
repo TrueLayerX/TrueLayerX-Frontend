@@ -5,7 +5,7 @@ A segmented-control radio group that lets users choose between **System**, **Lig
 ## Behaviour
 
 - **Default** — `"system"`. On first visit the site matches `prefers-color-scheme`.
-- **Persistence** — The user's choice is saved to `localStorage` under the key `veritasor-theme`.
+- **Persistence** — The user's choice is saved to `localStorage` under the key `truelayerx-theme`.
 - **Cross-tab sync** — Changing the theme in one tab updates all others via the `storage` event.
 - **System changes mid-session** — When the theme is set to `"system"`, a `change` listener on the `prefers-color-scheme` media query re-applies the theme live.
 - **High Contrast** — Sets `data-theme="high-contrast"` directly. It does not participate in system-preference resolution; it is always explicitly active when chosen.
@@ -17,7 +17,7 @@ An inline `<script>` in `index.html` runs **before** React mounts. It reads `loc
 ```html
 <script>
   (function() {
-    var key = 'veritasor-theme';
+    var key = 'truelayerx-theme';
     var theme;
     try { theme = localStorage.getItem(key); } catch(e) {}
     if (theme === 'light' || theme === 'dark' || theme === 'high-contrast') {

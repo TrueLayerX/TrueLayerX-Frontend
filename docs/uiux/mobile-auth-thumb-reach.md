@@ -1,6 +1,6 @@
 Mobile Auth: Thumb Reachability & Primary Action Placement
 Issue: #85
-Domain: Veritasor Revenue Attestation Protocol — Login / Signup flows
+Domain: TrueLayerX Revenue Attestation Protocol — Login / Signup flows
 Baseline: WCAG 2.2 AA
 Status: UX Specification — Ready for Engineering Review
 Last Updated: 2026-04-28
@@ -11,7 +11,7 @@ On small-screen mobile devices, primary actions ("Log In", "Sign Up", "Connect W
 Task abandonment (users dropping off before completing attestation onboarding)
 Input errors (mis-taps leading to form resets)
 Time-on-task (extra seconds spent repositioning the device)
-In Veritasor’s trust-heavy domain, friction during auth directly impacts user confidence in the attestation protocol.
+In TrueLayerX’s trust-heavy domain, friction during auth directly impacts user confidence in the attestation protocol.
   1.2 Device & Ergonomics Data
 Table
 Metric	Source / Rationale
@@ -81,7 +81,7 @@ Focus management: When an input receives focus, scroll it to center-of-screen (n
 Primary CTA Button
 Table
 State	Rule
-Default	Full width (minus 16 px horizontal margin), min-height 48 px, border-radius 8 px. Background: Veritasor primary indigo (#4F46E5). Text: white, 16 px, font-weight 600.
+Default	Full width (minus 16 px horizontal margin), min-height 48 px, border-radius 8 px. Background: TrueLayerX primary indigo (#4F46E5). Text: white, 16 px, font-weight 600.
 Hover / Active	Scale 0.98, background darken 10%. No motion > 0.3 s (WCAG 2.3.3).
 Focus	2 px outline offset 2 px, color #F59E0B (high contrast against indigo). Focus visible only on keyboard navigation.
 Loading	Spinner replaces label, aria-busy="true", aria-label="Logging in…". Button remains in same position; do not collapse height.
@@ -232,7 +232,7 @@ Test with TalkBack and VoiceOver before engineering handoff.
 
 9. Assets & References
   9.1 Figma / Design File
-File: Veritasor-Mobile-Auth-Thumb-Reach.fig (to be linked in follow-up comment)
+File: TrueLayerX-Mobile-Auth-Thumb-Reach.fig (to be linked in follow-up comment)
 Frames:
 iPhone 14 Pro (390×844)
 Pixel 7 (412×915)
@@ -258,5 +258,5 @@ Luke Wroblewski — Mobile Design Details
 [ ] autocomplete attributes are set for email, password, and OTP fields.
 [ ] prefers-reduced-motion respected for all animations.
 [ ] Form data persists across accidental navigation (sessionStorage or equivalent).
-Prepared for Veritasor Frontend — Issue #85
+Prepared for TrueLayerX Frontend — Issue #85
 Next step: Open engineering implementation issue referencing this spec.

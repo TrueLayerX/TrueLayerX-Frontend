@@ -78,7 +78,7 @@ export default function ProofShareModal({ isOpen, onClose, attestationId }: Proo
     }
     
     // Mock link generation
-    const link = `https://veritasor.com/proof/${attestationId}?share=${Math.random().toString(36).substring(7)}`
+    const link = `https://truelayerx.com/proof/${attestationId}?share=${Math.random().toString(36).substring(7)}`
     setGeneratedLink(link)
     addToast('Link generated successfully.', 'success')
   }

@@ -1,7 +1,7 @@
 # Accessible Chart Patterns: Non-Color Cues
 
 ## Overview
-This document specifies UI/UX patterns for trend visualization within Veritasor's dashboards, ensuring accessibility without relying solely on color. Given our trust-heavy domain (attestations, integrations, revenue signals), all data representations must be perceivable and understandable by all users, including those with visual impairments. This document outlines the pattern for the attestation history trend chart, ensuring trends (counts, success vs failure) are communicated at a glance while reinforcing the brand's calm, data-forward voice.
+This document specifies UI/UX patterns for trend visualization within TrueLayerX's dashboards, ensuring accessibility without relying solely on color. Given our trust-heavy domain (attestations, integrations, revenue signals), all data representations must be perceivable and understandable by all users, including those with visual impairments. This document outlines the pattern for the attestation history trend chart, ensuring trends (counts, success vs failure) are communicated at a glance while reinforcing the brand's calm, data-forward voice.
 
 ## Trend Visualization Patterns
 

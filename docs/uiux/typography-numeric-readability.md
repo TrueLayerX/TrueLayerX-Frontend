@@ -1,7 +1,7 @@
 # Typography & Numeric Readability Specs
 
 ## 1. Scope & Objective
-Define typographic rules for tabular numbers, monospace IDs, and currency formatting in UI specs to ensure a highly accessible, trust-heavy product experience for the Veritasor revenue attestation protocol.
+Define typographic rules for tabular numbers, monospace IDs, and currency formatting in UI specs to ensure a highly accessible, trust-heavy product experience for the TrueLayerX revenue attestation protocol.
 
 ## 2. Typographic Rules
 

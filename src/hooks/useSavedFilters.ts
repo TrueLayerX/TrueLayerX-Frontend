@@ -3,7 +3,7 @@
  * audit-log saved-filters feature (issue #236).
  *
  * Persistence model:
- *   - Per-workspace localStorage key: `veritasor.savedAuditFilters.<id>`
+ *   - Per-workspace localStorage key: `truelayerx.savedAuditFilters.<id>`
  *   - Storage is *only* read/written in the browser.
  *   - We hydrate synchronously inside a lazy initializer so the first
  *     render already reflects the user's list (avoids a flash of empty).

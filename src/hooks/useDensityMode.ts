@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 
 export type DensityMode = "comfortable" | "compact";
 
-const DENSITY_STORAGE_PREFIX = "veritasor_density_";
+const DENSITY_STORAGE_PREFIX = "truelayerx_density_";
 const API_BASE = "/v1/preferences/density";
 
 export interface UseDensityModeOptions {

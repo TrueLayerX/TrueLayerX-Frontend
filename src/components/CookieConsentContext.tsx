@@ -21,7 +21,7 @@ type CookieConsentContextValue = {
 
 // ─── Storage ──────────────────────────────────────────────────────────────────
 
-export const STORAGE_KEY = 'veritasor_cookie_consent'
+export const STORAGE_KEY = 'truelayerx_cookie_consent'
 
 const DEFAULT_CONSENT: ConsentState = { analytics: false, marketing: false, productCommunications: false }
 

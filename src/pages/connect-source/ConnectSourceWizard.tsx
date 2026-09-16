@@ -307,7 +307,7 @@ export function ConnectSourceWizard() {
       return
     }
 
-    document.title = `${activeStep.label} | Connect source | Veritasor`
+    document.title = `${activeStep.label} | Connect source | TrueLayerX`
   }, [currentStepIndex])
 
   if (currentStepIndex === -1) {
@@ -862,7 +862,7 @@ export function OAuthCallbackLandingStep() {
               ))}
             </ul>
             <p style={{ margin: 0, fontSize: '0.8rem', color: 'var(--muted)' }}>
-              🔒 Least-Privilege Guarantee: Read-only permissions active. Veritasor cannot initiate payments, withdraw funds, or alter revenue source configurations.
+              🔒 Least-Privilege Guarantee: Read-only permissions active. TrueLayerX cannot initiate payments, withdraw funds, or alter revenue source configurations.
             </p>
           </div>
         ) : null}
@@ -1070,7 +1070,7 @@ export function MapCurrenciesStep() {
         <p className="wizard-supporting-copy">
           Each currency the source reports must be mapped to an internal revenue category and a
           ledger account. Unmapped currencies will be excluded from attestation evidence until
-          they are assigned. Defaults are pre-filled where Veritasor can infer a safe choice.
+          they are assigned. Defaults are pre-filled where TrueLayerX can infer a safe choice.
         </p>
       </div>
 

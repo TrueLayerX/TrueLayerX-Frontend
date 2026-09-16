@@ -75,10 +75,10 @@ export function buildIssuesCsv(issues: readonly A11yIssue[]): string {
   return [headerLine, ...dataLines].join('\r\n')
 }
 
-/** Deterministic filename pattern: `veritasor-a11y-issues-YYYY-MM-DDTHH-MM-SS.csv`. */
+/** Deterministic filename pattern: `truelayerx-a11y-issues-YYYY-MM-DDTHH-MM-SS.csv`. */
 export function issuesCsvFilename(now: Date = new Date()): string {
   const stamp = now.toISOString().replace(/[:.]/g, '-').slice(0, 19)
-  return `veritasor-a11y-issues-${stamp}.csv`
+  return `truelayerx-a11y-issues-${stamp}.csv`
 }
 
 export interface DownloadDeps {

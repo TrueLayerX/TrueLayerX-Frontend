@@ -214,7 +214,7 @@ critical,image-alt,Images must have alternative text,1.1.1,"#hero-illustration >
 #### Filename
 
 ```
-veritasor-a11y-issues-YYYY-MM-DDTHH-MM-SS.csv
+truelayerx-a11y-issues-YYYY-MM-DDTHH-MM-SS.csv
 ```
 
 The stamp is derived from the moment the user clicks Export, and uses
@@ -312,7 +312,7 @@ Triage session:
   1. Open Settings → Accessibility
   2. Click [Critical] chip       → URL updates, table narrows
   3. Review the rows (~5 mins)
-  4. Click "Export CSV"          → file `veritasor-a11y-issues-…csv` downloaded
+  4. Click "Export CSV"          → file `truelayerx-a11y-issues-…csv` downloaded
   5. Open in Excel / Sheets       → sort by `severity` (already sorted) or `document_title`
   6. Paste URL back into Slack    → https://app/settings/a11y-audit?severity=critical
                                   reopen the same view tomorrow

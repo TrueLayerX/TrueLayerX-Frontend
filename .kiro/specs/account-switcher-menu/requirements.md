@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document specifies requirements for the **Account Switcher Menu** — a workspace-context control embedded in the Veritasor top app bar. The component allows authenticated users who belong to multiple workspaces to identify their active workspace at a glance and switch between workspaces with minimal friction. It replaces the existing plain-text workspace listbox in `TopAppBar.tsx` with a richer, fully accessible menu that includes workspace metadata, an inline search filter for long lists, a keyboard shortcut, responsive mobile layout, and WCAG 2.1 AA compliance.
+This document specifies requirements for the **Account Switcher Menu** — a workspace-context control embedded in the TrueLayerX top app bar. The component allows authenticated users who belong to multiple workspaces to identify their active workspace at a glance and switch between workspaces with minimal friction. It replaces the existing plain-text workspace listbox in `TopAppBar.tsx` with a richer, fully accessible menu that includes workspace metadata, an inline search filter for long lists, a keyboard shortcut, responsive mobile layout, and WCAG 2.1 AA compliance.
 
 The component is a **pure controlled component** built with vanilla CSS and React 18. It reuses existing design system tokens and primitives (menu disclosure pattern, avatar/initials, search input, typography scale) from `src/index.css` and `src/components/TopAppBar.tsx`. No new third-party UI dependencies are introduced.
 

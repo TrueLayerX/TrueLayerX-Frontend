@@ -317,7 +317,7 @@ function CertificateSeal({ status, attestationId }: { status: VerificationStatus
       <svg
         viewBox="0 0 120 120"
         role="img"
-        aria-label={`Round seal reading Veritasor Protocol on top arc, ${sealLabel} on bottom arc, with attestation ${attestationId} in the center`}
+        aria-label={`Round seal reading TrueLayerX Protocol on top arc, ${sealLabel} on bottom arc, with attestation ${attestationId} in the center`}
       >
         <defs>
           <path
@@ -336,7 +336,7 @@ function CertificateSeal({ status, attestationId }: { status: VerificationStatus
         {/* Top arc text */}
         <text fontSize="6.6" fontWeight="700" letterSpacing="2.4" fill="currentColor">
           <textPath href="#seal-arc-top" startOffset="50%" textAnchor="middle">
-            VERITASOR PROTOCOL
+            TRUELAYERX PROTOCOL
           </textPath>
         </text>
         {/* Bottom arc text */}
@@ -349,7 +349,7 @@ function CertificateSeal({ status, attestationId }: { status: VerificationStatus
         <g transform="translate(60 60)">
           <circle r="14" fill="none" stroke="currentColor" strokeWidth="0.8" />
           <text textAnchor="middle" dy="4" fontSize="14" fontWeight="700" fill="currentColor">
-            V
+            T
           </text>
         </g>
       </svg>
@@ -551,7 +551,7 @@ export default function AttestationDetail() {
             </text>
           </svg>
           <span>
-            <span className="certificate-brand-name">Veritasor</span>
+            <span className="certificate-brand-name">TrueLayerX</span>
             <span className="certificate-brand-tagline">Revenue Attestation Protocol</span>
           </span>
         </div>
@@ -847,7 +847,7 @@ export default function AttestationDetail() {
       >
         <div className="certificate-signature">
           <div>Signed on behalf of the issuing authority:</div>
-          <div className="certificate-signature-name">Veritasor Protocol</div>
+          <div className="certificate-signature-name">TrueLayerX Protocol</div>
           <div className="certificate-signature-title">Issuing Authority</div>
         </div>
         <div className="certificate-meta-stack">
@@ -862,7 +862,7 @@ export default function AttestationDetail() {
                 : `${formatDate(now.toISOString())} (preview)`}
             </time>
           </div>
-          <div>veritasor.app / attestations / {attestation.id}</div>
+          <div>truelayerx.app / attestations / {attestation.id}</div>
         </div>
       </footer>
 

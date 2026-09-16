@@ -1,5 +1,5 @@
 /* =============================================================================
- * Veritasor — Attestation Certificate Print Stylesheet
+ * TrueLayerX — Attestation Certificate Print Stylesheet
  *
  * WCAG 2.1 AA compliant, grayscale-safe, tuned for A4 and Letter.
  *
@@ -83,7 +83,7 @@
      named strings rather than rendered images. Most browsers ignore without
      an engine with `marks` enabled; left as visual fallback. */
   @top-left {
-    content: "Veritasor — Attestation Certificate";
+    content: "TrueLayerX — Attestation Certificate";
     font-family: "Times New Roman", serif;
     font-size: 9pt;
     color: #555;

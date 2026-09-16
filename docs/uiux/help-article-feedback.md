@@ -112,7 +112,7 @@ The component uses existing design tokens:
 ### Before (no feedback mechanism)
 ```
 ┌──────────────────────────────┐
-│  Getting Started with Veritasor  │
+│  Getting Started with TrueLayerX  │
 │  ...article body content...      │
 │                                  │
 │  [No way to rate this article]  │
@@ -122,7 +122,7 @@ The component uses existing design tokens:
 ### After (with HelpArticleFeedback)
 ```
 ┌──────────────────────────────┐
-│  Getting Started with Veritasor  │
+│  Getting Started with TrueLayerX  │
 │  ...article body content...      │
 │                                  │
 │  Was this helpful?               │

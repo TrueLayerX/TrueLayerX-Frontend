@@ -165,7 +165,7 @@ export function makeSavedFilterId(): string {
  */
 export function savedFilterStorageKey(workspaceId: string): string {
   const safeId = workspaceId.replace(/[^a-zA-Z0-9_-]/g, '') || 'default'
-  return `veritasor.savedAuditFilters.${safeId}`
+  return `truelayerx.savedAuditFilters.${safeId}`
 }
 
 // ─── Validation ───────────────────────────────────────────────────────────

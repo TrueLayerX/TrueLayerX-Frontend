@@ -52,7 +52,7 @@ describe('parseTokens', () => {
 
   it('generates a comment header with version for root variant', () => {
     const css = tokensToCss(blocks, { kind: 'root' })
-    expect(css).toContain('Veritasor Design Tokens')
+    expect(css).toContain('TrueLayerX Design Tokens')
     expect(css).toContain('Version: 0.1.0')
   })
 
@@ -229,7 +229,7 @@ describe('TokensExport', () => {
   it('preview textarea shows comment header with version', () => {
     render(<TokensExport />)
     const textarea = screen.getByRole('textbox', { name: /css custom properties preview/i }) as HTMLTextAreaElement
-    expect(textarea.value).toContain('Veritasor Design Tokens')
+    expect(textarea.value).toContain('TrueLayerX Design Tokens')
     expect(textarea.value).toContain('Version: 0.1.0')
   })
 })

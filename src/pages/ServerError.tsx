@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function ServerError() {
   useEffect(() => {
-    document.title = 'Something went wrong - Veritasor'
+    document.title = 'Something went wrong - TrueLayerX'
   }, [])
 
   function handleRetry() {
@@ -48,7 +48,7 @@ export default function ServerError() {
           </button>
           <a
             className="not-found-button not-found-button-secondary"
-            href="https://status.veritasor.com"
+            href="https://status.truelayerx.com"
             target="_blank"
             rel="noopener noreferrer"
           >

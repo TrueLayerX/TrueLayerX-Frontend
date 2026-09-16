@@ -33,7 +33,7 @@ describe('TopAppBar', () => {
 
     it('renders brand name', () => {
       const { container } = renderWithRouter(<TopAppBar />)
-      expect(container.querySelector('.app-bar-brand')).toHaveTextContent('Veritasor')
+      expect(container.querySelector('.app-bar-brand')).toHaveTextContent('TrueLayerX')
     })
 
     it('renders workspace trigger with initial workspace', () => {

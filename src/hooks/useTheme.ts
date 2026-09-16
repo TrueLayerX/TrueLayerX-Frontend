@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useSyncExternalStore } from 'react'
 
-const BASE_STORAGE_KEY = 'veritasor-theme'
+const BASE_STORAGE_KEY = 'truelayerx-theme'
 export type Theme = 'system' | 'light' | 'dark' | 'high-contrast'
 
 export function getThemeStorageKey(userId?: string): string {

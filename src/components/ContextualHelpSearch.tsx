@@ -17,7 +17,7 @@ export interface HelpArticle {
 export const HELP_ARTICLES: HelpArticle[] = [
   {
     id: 'getting-started',
-    title: 'Getting Started with Veritasor',
+    title: 'Getting Started with TrueLayerX',
     description: 'Learn how to set up your workspace, connect revenue sources, and create your first attestation.',
     keywords: ['setup', 'workspace', 'first steps', 'introduction', 'onboarding', 'beginner'],
     href: '/help',
@@ -50,7 +50,7 @@ export const HELP_ARTICLES: HelpArticle[] = [
   {
     id: 'api-keys',
     title: 'Managing API Keys',
-    description: 'Create, rotate, and revoke API keys for programmatic access to the Veritasor verification API.',
+    description: 'Create, rotate, and revoke API keys for programmatic access to the TrueLayerX verification API.',
     keywords: ['api', 'key', 'secret', 'rotate', 'revoke', 'token', 'authentication'],
     href: '/api-keys',
     categories: ['Settings', 'Security'],
@@ -155,7 +155,7 @@ const DEFAULT_SUGGESTIONS = ['getting-started', 'connect-sources', 'create-attes
 
 // ─── localStorage helpers ───────────────────────────────────────────────────
 
-const RECENTS_KEY = 'veritasor-recent-help-searches'
+const RECENTS_KEY = 'truelayerx-recent-help-searches'
 const MAX_RECENTS = 5
 
 function loadRecents(): string[] {

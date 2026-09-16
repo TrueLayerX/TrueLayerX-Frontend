@@ -99,7 +99,7 @@ function getMethodDefinition(
 
 function CredentialsState({ onContinue }: { onContinue: () => void }) {
   const navigate = useNavigate();
-  const [email, setEmail] = useState("ops@veritasor.com");
+  const [email, setEmail] = useState("ops@truelayerx.com");
   const [password, setPassword] = useState("badpass");
   const [rememberDevice, setRememberDevice] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -152,7 +152,7 @@ function CredentialsState({ onContinue }: { onContinue: () => void }) {
             id={emailId}
             className="auth-input"
             type="email"
-            placeholder="team@veritasor.com"
+            placeholder="team@truelayerx.com"
             autoComplete="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -313,7 +313,7 @@ function MfaChallengeState({
     const l = local.length;
     return `${local[0]}${"•".repeat(Math.max(0, l - 2))}${
       l > 1 ? local[l - 1] : ""
-    }@${domain ?? "veritasor.com"}`;
+    }@${domain ?? "truelayerx.com"}`;
   };
 
   return (
@@ -321,7 +321,7 @@ function MfaChallengeState({
       eyebrow="Two-factor authentication"
       title="Verify your sign-in"
       description={`A second factor is required to access this workspace. A sign-in notification was also sent to ${maskEmail(
-        "ops@veritasor.com",
+        "ops@truelayerx.com",
       )}.`}
       footerPrompt="Using a different account?"
       footerLinkLabel="Go back to sign in"

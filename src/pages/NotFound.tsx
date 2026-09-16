@@ -16,7 +16,7 @@ const supportLinks = [
 
 export default function NotFound() {
   useEffect(() => {
-    document.title = 'Page not found - Veritasor'
+    document.title = 'Page not found - TrueLayerX'
   }, [])
 
   return (

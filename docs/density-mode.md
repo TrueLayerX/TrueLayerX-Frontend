@@ -100,7 +100,7 @@ Replace hardcoded spacing values with density tokens:
 Density preference is stored per workspace in localStorage:
 
 ```
-veritasor_density_{workspaceName}
+truelayerx_density_{workspaceName}
 ```
 
 When a user switches workspaces, the density mode automatically syncs to the saved preference for that workspace.

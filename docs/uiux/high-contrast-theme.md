@@ -74,7 +74,7 @@ function MyComponent() {
 }
 ```
 
-The `theme` value is persisted to `localStorage` under `veritasor-theme`. It syncs across tabs via the `storage` event. The `resolved` return value of `useTheme()` is `"high-contrast"` when this mode is active (unlike `"system"`, which resolves to `"light"` or `"dark"`).
+The `theme` value is persisted to `localStorage` under `truelayerx-theme`. It syncs across tabs via the `storage` event. The `resolved` return value of `useTheme()` is `"high-contrast"` when this mode is active (unlike `"system"`, which resolves to `"light"` or `"dark"`).
 
 ---
 

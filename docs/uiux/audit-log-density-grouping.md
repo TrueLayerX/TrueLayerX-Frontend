@@ -63,7 +63,7 @@ interface AuditLogEntry {
 ### Density Integration
 
 `AuditLogTimeline` uses the `useDensityMode` hook internally. It reads density from
-`localStorage` keyed to `veritasor_density_{workspace}`. The grouping behaviour is
+`localStorage` keyed to `truelayerx_density_{workspace}`. The grouping behaviour is
 automatically applied when density switches — no page reload required.
 
 ## Example Usage

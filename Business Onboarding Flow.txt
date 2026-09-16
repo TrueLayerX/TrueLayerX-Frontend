@@ -75,6 +75,6 @@ Responsive designs
 Developer annotations
 
 Figma Link:
-https://www.figma.com/design/hM0yV83dCn8LYxZ7wDJI6m/Veritasor-Design-Business-Onboarding-Flow-and-Welcome-Experience?node-id=0-1&t=K3ArHzy9lh7RalMc-1
+https://www.figma.com/design/hM0yV83dCn8LYxZ7wDJI6m/TrueLayerX-Design-Business-Onboarding-Flow-and-Welcome-Experience?node-id=0-1&t=K3ArHzy9lh7RalMc-1
 
 If you want, I can also make it even shorter (ultra-concise version) or slightly more senior-level and strategic sounding depending on who will review it.

@@ -224,7 +224,7 @@ describe('AttestationDetail — print certificate structure', () => {
   it('renders a print-only formal certificate header', () => {
     const header = document.querySelector('.certificate-header.print-only')
     expect(header).not.toBeNull()
-    expect(header?.querySelector('.certificate-brand-name')?.textContent).toMatch(/veritasor/i)
+    expect(header?.querySelector('.certificate-brand-name')?.textContent).toMatch(/truelayerx/i)
   })
 
   it('renders a print-only title block with the formal certificate title', () => {
@@ -244,7 +244,7 @@ describe('AttestationDetail — print certificate structure', () => {
     const footer = document.querySelector('.certificate-footer.print-only')
     expect(footer).not.toBeNull()
     expect(footer?.textContent).toMatch(/att-001/i)
-    expect(footer?.textContent).toMatch(/veritasor\.app/i)
+    expect(footer?.textContent).toMatch(/truelayerx\.app/i)
   })
 
   it('renders a print-only authenticity line referencing the Stellar transaction', () => {

@@ -13,7 +13,7 @@ interface Props {
   userId?: string
 }
 
-const STORAGE_KEY_PREFIX = 'veritasor:dismissed-announcements'
+const STORAGE_KEY_PREFIX = 'truelayerx:dismissed-announcements'
 
 function getStorageKey(userId?: string) {
   return `\( {STORAGE_KEY_PREFIX}: \){userId ?? 'anonymous'}`

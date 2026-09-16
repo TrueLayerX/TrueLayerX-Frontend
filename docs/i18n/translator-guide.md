@@ -15,7 +15,7 @@
 ## 3. What not to translate
 - Content inside `{}` such as variable names, plural keywords, and format skeletons.
 - HTML tags if they appear in the message string.
-- Brand names, product names, and proper nouns such as Veritasor, Stellar, and API.
+- Brand names, product names, and proper nouns such as TrueLayerX, Stellar, and API.
 - Units and currency codes such as USD, km, and MB.
 
 ## 4. RTL notes

@@ -58,7 +58,7 @@ const EMPTY_DRAFT: CreateWorkspaceDraft = {
   region: "us-east",
 };
 
-const DRAFT_STORAGE_KEY = "veritasor-create-workspace-draft";
+const DRAFT_STORAGE_KEY = "truelayerx-create-workspace-draft";
 
 function loadDraftFromStorage(): CreateWorkspaceDraft {
   try {
@@ -408,7 +408,7 @@ export default function TopAppBar({
           <span aria-hidden="true">{sidebarOpen ? "✕" : "☰"}</span>
         </button>
 
-        <span className="app-bar-brand">Veritasor</span>
+        <span className="app-bar-brand">TrueLayerX</span>
 
         <div className="app-bar-workspace" style={{ position: "relative" }}>
           <button

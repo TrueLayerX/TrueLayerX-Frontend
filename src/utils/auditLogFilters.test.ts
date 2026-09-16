@@ -163,16 +163,16 @@ describe('auditLogFilters', () => {
   describe('savedFilterStorageKey', () => {
     it('uses the workspace id verbatim when safe', () => {
       expect(savedFilterStorageKey('acme-01')).toBe(
-        'veritasor.savedAuditFilters.acme-01',
+        'truelayerx.savedAuditFilters.acme-01',
       )
     })
 
     it('strips characters that would collide between workspaces', () => {
       expect(savedFilterStorageKey('a/b c')).toBe(
-        'veritasor.savedAuditFilters.abc',
+        'truelayerx.savedAuditFilters.abc',
       )
       expect(savedFilterStorageKey('!!!')).toBe(
-        'veritasor.savedAuditFilters.default',
+        'truelayerx.savedAuditFilters.default',
       )
     })
   })

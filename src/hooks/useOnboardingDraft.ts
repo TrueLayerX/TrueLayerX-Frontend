@@ -51,7 +51,7 @@ export type OnboardingDraft = {
   bank: BankDetails
 }
 
-const STORAGE_KEY = 'veritasor_onboarding_draft'
+const STORAGE_KEY = 'truelayerx_onboarding_draft'
 
 const INITIAL_DRAFT: OnboardingDraft = {
   step: 1,

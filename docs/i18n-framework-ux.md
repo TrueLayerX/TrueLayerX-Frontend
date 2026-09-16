@@ -1,6 +1,6 @@
 # Internationalization Framework UX
 
-Design contract for the framework-level internationalization (i18n) UX in `Veritasor-Frontend`.
+Design contract for the framework-level internationalization (i18n) UX in `TrueLayerX-Frontend`.
 The implementation lives in `src/components/LocalePicker/LocaleAccountMenu.tsx` and is mounted
 once at the app root in `src/App.tsx`. It wraps the existing accessible `LocalePicker`.
 

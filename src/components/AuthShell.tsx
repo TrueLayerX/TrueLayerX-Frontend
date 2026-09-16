@@ -31,7 +31,7 @@ export default function AuthShell({
       <section className="auth-shell">
         <aside className="auth-hero" aria-label="Authentication overview">
           <Link to="/" className="auth-brand">
-            Veritasor
+            TrueLayerX
           </Link>
           <p className="auth-eyebrow">{eyebrow}</p>
           <h1 className="auth-hero-title">{sideTitle}</h1>

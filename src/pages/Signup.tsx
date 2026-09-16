@@ -66,7 +66,7 @@ export default function Signup() {
     <AuthShell
       eyebrow="Create account"
       title="Set up your workspace"
-      description="Create a secure Veritasor account for your finance or compliance team in just a few guided steps."
+      description="Create a secure TrueLayerX account for your finance or compliance team in just a few guided steps."
       footerPrompt="Already have access?"
       footerLinkLabel="Sign in"
       footerLinkHref="/login"
@@ -112,7 +112,7 @@ export default function Signup() {
               id="signup-company"
               className="auth-input"
               type="text"
-              placeholder="Veritasor Labs"
+              placeholder="TrueLayerX Labs"
               autoComplete="organization"
             />
           </div>
@@ -126,7 +126,7 @@ export default function Signup() {
             id="signup-email"
             className="auth-input"
             type="email"
-            placeholder="founder@veritasor.com"
+            placeholder="founder@truelayerx.com"
             autoComplete="email"
           />
         </div>

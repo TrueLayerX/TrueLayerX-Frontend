@@ -342,7 +342,7 @@ describe('A11yCsv — buildIssuesCsv', () => {
 describe('A11yCsv — issuesCsvFilename', () => {
   it('produces a stable, parseable filename pattern', () => {
     const fixed = new Date('2026-07-28T12:34:56Z')
-    expect(issuesCsvFilename(fixed)).toMatch(/^veritasor-a11y-issues-2026-07-28T12-34-56\.csv$/)
+    expect(issuesCsvFilename(fixed)).toMatch(/^truelayerx-a11y-issues-2026-07-28T12-34-56\.csv$/)
   })
 })
 

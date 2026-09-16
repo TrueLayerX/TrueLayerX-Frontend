@@ -4,8 +4,8 @@ import { useToast } from './ToastContext'
 
 type PaletteScope = 'global' | 'page'
 
-const SCOPE_STORAGE_KEY = 'veritasor-palette-scope'
-const PINNED_STORAGE_KEY = 'veritasor-pinned-commands'
+const SCOPE_STORAGE_KEY = 'truelayerx-palette-scope'
+const PINNED_STORAGE_KEY = 'truelayerx-pinned-commands'
 
 export interface Command {
   id: string
@@ -101,7 +101,7 @@ export const COMMANDS: Command[] = [
   {
     id: 'action-sign-out',
     title: 'Sign Out',
-    description: 'Safely log out of the Veritasor dashboard',
+    description: 'Safely log out of the TrueLayerX dashboard',
     category: 'Settings',
   },
 ]
@@ -178,7 +178,7 @@ export default function CommandPalette({ isOpen, onClose, onWorkspaceJump }: Com
   // Load recents on mount and when palette opens
   useEffect(() => {
     if (isOpen) {
-      const stored = localStorage.getItem('veritasor-recent-commands')
+      const stored = localStorage.getItem('truelayerx-recent-commands')
       if (stored) {
         try {
           setRecents(JSON.parse(stored))
@@ -212,7 +212,7 @@ export default function CommandPalette({ isOpen, onClose, onWorkspaceJump }: Com
   const saveToRecents = (id: string) => {
     const nextRecents = [id, ...recents.filter((r) => r !== id)].slice(0, 4)
     setRecents(nextRecents)
-    localStorage.setItem('veritasor-recent-commands', JSON.stringify(nextRecents))
+    localStorage.setItem('truelayerx-recent-commands', JSON.stringify(nextRecents))
   }
 
   // Resolve the base path (strip trailing slash)

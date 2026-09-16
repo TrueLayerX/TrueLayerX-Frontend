@@ -19,13 +19,13 @@ Here is a copy-ready JSON-LD sample of what the component outputs for a nested p
       "@type": "ListItem",
       "position": 1,
       "name": "Dashboard",
-      "item": "https://veritasor.com/"
+      "item": "https://truelayerx.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Onboarding",
-      "item": "https://veritasor.com/onboarding"
+      "item": "https://truelayerx.com/onboarding"
     },
     {
       "@type": "ListItem",

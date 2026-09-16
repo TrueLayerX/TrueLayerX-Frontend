@@ -107,7 +107,7 @@ export default function TokensExport() {
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `veritasor-tokens-${variant}-${new Date().toISOString().slice(0, 10)}.css`
+    a.download = `truelayerx-tokens-${variant}-${new Date().toISOString().slice(0, 10)}.css`
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)
@@ -129,7 +129,7 @@ export default function TokensExport() {
         Export design tokens
       </h2>
       <p style={{ margin: '0 0 var(--density-gap)', color: 'var(--muted)', lineHeight: 1.6 }}>
-        Export a snapshot of Veritasor design tokens as CSS custom properties. Ready to paste into{' '}
+        Export a snapshot of TrueLayerX design tokens as CSS custom properties. Ready to paste into{' '}
         <code style={{ fontFamily: '"SF Mono", "Fira Code", monospace', fontSize: '0.82rem' }}>
           src/index.css
         </code>{' '}

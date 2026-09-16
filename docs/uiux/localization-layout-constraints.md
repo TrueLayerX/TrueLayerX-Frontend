@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines layout constraints and truncation rules for the Veritasor Frontend to ensure seamless localization support without compromising the trust-heavy UI. Veritasor deals with attestations, integrations, and revenue signals, where UI integrity is critical for user trust.
+This document outlines layout constraints and truncation rules for the TrueLayerX Frontend to ensure seamless localization support without compromising the trust-heavy UI. TrueLayerX deals with attestations, integrations, and revenue signals, where UI integrity is critical for user trust.
 
 The primary focus is on accommodating string growth (e.g., German translations can be 20-30% longer than English) and right-to-left (RTL) languages while maintaining accessibility (WCAG 2.2 AA) and usability.
 

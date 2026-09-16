@@ -1,6 +1,6 @@
-# Veritasor Frontend
+# TrueLayerX Frontend
 
-Business dashboard for the Veritasor revenue attestation protocol. Connect revenue sources, trigger attestations, and view on-chain proof history.
+Business dashboard for the TrueLayerX revenue attestation protocol. Connect revenue sources, trigger attestations, and view on-chain proof history.
 
 ## Tech Stack
 
@@ -37,7 +37,7 @@ The dev server proxies `/api` to `http://localhost:3000` (backend). Start the ba
 ## Project structure
 
 ```
-veritasor-frontend/
+truelayerx-frontend/
 ├── src/
 │   ├── components/   # Layout, shared UI
 │   ├── pages/        # Dashboard, Attestations

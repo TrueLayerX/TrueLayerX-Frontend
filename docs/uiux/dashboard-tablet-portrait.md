@@ -85,7 +85,7 @@ New semantic classes replace inline styles in the Dashboard:
 │  Dashboard Page (768–899px viewport)                             │
 │                                                                  │
 │  ┌─ TopAppBar ─────────────────────────────────────────────────┐ │
-│  │  [☰]  Veritasor        [Workspace ▼]  [🌙]  [Account]      │ │
+│  │  [☰]  TrueLayerX        [Workspace ▼]  [🌙]  [Account]      │ │
 │  └─────────────────────────────────────────────────────────────┘ │
 │                                                                  │
 │  ┌─ Sidebar (220px) ───┐  ┌─ Content Area (~540px) ──────────┐ │

@@ -1,7 +1,7 @@
 # Role-Aware Navigation Models
 
 ## Overview
-This document defines the navigation models for Veritasor's product experience, specifically addressing privilege confusion for mixed-role organizations by establishing clear boundaries between Operator and Business User personas.
+This document defines the navigation models for TrueLayerX's product experience, specifically addressing privilege confusion for mixed-role organizations by establishing clear boundaries between Operator and Business User personas.
 
 ## Navigation Models
 
@@ -23,7 +23,7 @@ To validate the effectiveness of these navigation models, we will measure:
 
 ## Edge States
 
-Handling edge states is critical for maintaining trust in the Veritasor platform:
+Handling edge states is critical for maintaining trust in the TrueLayerX platform:
 
 - **Empty States:** When a user lacks data for a specific module (e.g., no attestations generated), provide clear, actionable empty states with links to documentation or "Getting Started" guides relevant to their role.
 - **Loading States:** Use skeleton screens that match the expected layout of the user's role-specific dashboard to maintain spatial awareness during data retrieval.

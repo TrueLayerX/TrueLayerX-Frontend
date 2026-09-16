@@ -16,7 +16,7 @@ The top app bar is the persistent header region of the authenticated app shell. 
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│ [☰ hamburger]  Veritasor  [Workspace ▼]     [testnet] [JA]│
+│ [☰ hamburger]  TrueLayerX  [Workspace ▼]     [testnet] [JA]│
 └────────────────────────────────────────────────────────────┘
 ```
 

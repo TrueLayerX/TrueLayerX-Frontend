@@ -1,7 +1,7 @@
 # UI/UX Design & Research: Dashboard Information Scent (Revenue vs. Attestations)
 
 ## Scope
-This document outlines the UX research, information architecture, and accessibility baselines for the Veritasor Dashboard home. The goal is to define a dashboard hierarchy that establishes clear "information scent"—helping businesses instantly understand "what needs action now" regarding both their revenue signals and active attestations.
+This document outlines the UX research, information architecture, and accessibility baselines for the TrueLayerX Dashboard home. The goal is to define a dashboard hierarchy that establishes clear "information scent"—helping businesses instantly understand "what needs action now" regarding both their revenue signals and active attestations.
 
 ---
 
